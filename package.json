@@ -1,0 +1,29 @@
+{
+  "name": "countries_app",
+  "version": "1.0.0",
+  "description": "For tonight, we'd like you to combine your knowledge of express, mongo and mongoose to build an application that has full CRUD on countries.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gSchool/mongoose_countries_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gSchool/mongoose_countries_app/issues"
+  },
+  "homepage": "https://github.com/gSchool/mongoose_countries_app#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.3",
+    "body-parser": "^1.12.4",
+    "cookie-session": "^1.1.0",
+    "ejs": "^2.3.1",
+    "express": "^4.12.4",
+    "method-override": "^2.3.3",
+    "mongoose": "^4.0.5",
+    "morgan": "^1.5.3"
+  }
+}
