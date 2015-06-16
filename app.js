@@ -100,7 +100,7 @@ app.get('/countries/:id', routeMiddleware.ensureLoggedIn, function(req,res){
 
 // EDIT
 
-app.get('/countries/:id/edit', routeMiddleware.ensureLoggedIn, function(req,res){
+app.get('/countries/:id/edit', routeMiddleware.ensureLoggedIn, routeMiddleware.ensureCorrectUser, function(req,res){
   db.Country.findById(req.params.id,function(err,country){
     if (err) throw err;
     res.render("countries/edit", {country:country});
